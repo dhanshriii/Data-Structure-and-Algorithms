@@ -1,3 +1,11 @@
+//This is a Library management system using array data structure
+/*The user can :
+	1) Insert the Books in the library
+ 	2) Display the books present in the library
+  	3) Search for any book
+   	4) Update any book details
+    	5) Delete any book record
+*/
 #include<iostream>
 using namespace std;
 int n, i; //Globally declaring a variable
@@ -15,8 +23,10 @@ class Library{
 }b[10];
 
 void Library :: accept(){
-	title = new char;
-	aut = new char;
+	//Assigning the memory dynamically to the variables as we dont know the size the name of the book or athor name or any of the mentioned below
+	//Inorder to avoid memory wastage
+	title = new char;   
+	aut = new char;		
 	pub = new char;
 	ISBN = new char;
 	
