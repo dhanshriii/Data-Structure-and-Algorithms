@@ -1,11 +1,12 @@
 //This is a Library management system using array data structure
-/*The user can :
-	1) Insert the Books in the library
- 	2) Display the books present in the library
-  	3) Search for any book
-   	4) Update any book details
-    	5) Delete any book record
-*/
+//The user can :
+//	1) Insert the Books in the library
+//	2) Display the books present in the library
+//  	3) Search for any book
+//   	4) Update any book details
+//    	5) Delete any book record
+
+
 #include<iostream>
 using namespace std;
 int n, i; //Globally declaring a variable
